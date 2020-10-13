@@ -15,7 +15,7 @@ automatically active. For instance, a valid input of a new equipment related to 
 * Setting an equipment’s status to inactive. The input data should be one or a list of equipment code.
 * Returning all active equipment of a vessel
 
-#The solution
+# The solution
 The API was created with the Python language and the Flask framework, for data storage the MongoDB (NoSQL) database was used.
 
 To register a new vessel, make an HTTP request (POST) for the route /vessels:
