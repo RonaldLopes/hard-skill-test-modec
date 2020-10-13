@@ -66,7 +66,3 @@ To run the code, use the command below:
 
     python3 server.py
     
-## Run the code with docker compose
-To run the application with Docker run the line below:
-
-    docker-compose up -d
