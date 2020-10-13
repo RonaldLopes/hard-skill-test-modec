@@ -8,7 +8,6 @@ from flask_cors import CORS
 
 from middlewares.error_handler import error_handlers_blueprint
 from routes import db
-from middleware import middleware
 from routes.equipment.equipment_route import equipment_blueprint
 from routes.vessel.vessel_route import vessel_blueprint
 import middlewares.error_handler
